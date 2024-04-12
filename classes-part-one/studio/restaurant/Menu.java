@@ -44,7 +44,7 @@ public class Menu {
         menuItems.remove(menuItem);
     }
 
-    // Method to print out the entire menu
+    // Method to print out entire menu
     public void printMenu() {
         System.out.println("Menu (Last Updated: " + lastUpdated + ")");
         for (MenuItem item : menuItems) {
